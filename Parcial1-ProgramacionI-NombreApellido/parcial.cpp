@@ -10,6 +10,8 @@ int main() {
     double precioProducto;
     int cantidad;
 
+    string nombreEstudiante = "Jose Miguel Argueta Reyes";
+
     cout << "Ingrese el nombre del cliente: ";
     getline(cin, nombreCliente);
 
@@ -31,8 +33,7 @@ int main() {
     cout << "IVA (12%): Q " << iva << endl;
     cout << "Total a pagar: Q " << total << endl;
 
-    // 👇 Aquí usamos el mismo nombre ingresado
-    cout << "\nEstudiante: " << nombreCliente << endl;
+    cout << "\nEstudiante: " << nombreEstudiante << endl;
 
     return 0;
 }
